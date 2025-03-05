@@ -22,7 +22,7 @@ minMaxAverage([20, 50, 45, 16, 92, 44, 33, 11]);
 console.log("\nExercise #2 - countVowels")
 function countVowels(wrd) {
     let vwl = "aeiouAEIOU";
-    let cnt = [...wrd].filter(letter => vwls.includes(letter)).length;
+    let cnt = [...wrd].filter(letter => vwl.includes(letter)).length;
 
     console.log(`${wrd}: ${cnt} vowels`);
 }
