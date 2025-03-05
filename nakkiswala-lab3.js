@@ -12,6 +12,7 @@ function minMaxAverage(num) {
 
 }
 
+// Test Cases
 minMaxAverage([2, 5, 23, 6, 9, 4, 3, 1]);
 minMaxAverage([10, 15, 53, 60, 49, 14, 33, 10]);
 minMaxAverage([20, 50, 45, 16, 92, 44, 33, 11]);
@@ -19,6 +20,17 @@ minMaxAverage([20, 50, 45, 16, 92, 44, 33, 11]);
 
 // Exercise #2
 console.log("\nExercise #2 - countVowels")
+function countVowels(wrd) {
+    let vwl = "aeiouAEIOU";
+    let cnt = [...wrd].filter(letter => vwls.includes(letter)).length;
+
+    console.log(`${wrd}: ${cnt} vowels`);
+}
+
+// Test cases
+countVowels("Winter");
+countVowels("Recreation");
+countVowels("VisualStudio");
 
 
 // Exercise #3
